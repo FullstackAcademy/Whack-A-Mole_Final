@@ -1,0 +1,42 @@
+h1 {
+    color: brown;
+    font-size: 2rem;
+    display: flex;
+    width: 100%;
+    padding-left: 12rem;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    flex-flow: wrap;
+    height: 600px;
+    width: 600px;
+    background-image: url("https://getlawnstar.com/wp-content/uploads/2020/04/bahiagrass-close-up-600x338-1.jpg");
+}
+
+.whackHoles {
+    display: flex;
+    width: 33%;
+    height: 33%;
+    background-image: url(images/hole.png);
+    background-size: cover;
+    
+}
+
+#moleImage {
+    background-image: url(images/mole.png);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    position: absolute;
+}
+
+#whackScore {
+    color: green;
+    font-size: 1.5rem;
+    display: flex;
+    padding-left: 18rem;
+    font-family: arial;
+}
